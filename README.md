@@ -1,4 +1,4 @@
-# 🏋️ Simple Fitness Booking API
+#  Simple Fitness Booking API
 
 A beginner-friendly **FastAPI** project that allows users to **sign up**, **log in**, **create fitness classes**, and **book slots** for available classes.
 It includes **basic authentication**, **SQLite database**, and **CRUD API endpoints** — all in a single Python file for easy understanding.
@@ -82,9 +82,9 @@ Server will start at:
 
 ```json
 {
-  "name": "Alice",
-  "email": "alice@example.com",
-  "password": "password123"
+  "name": "Kishan",
+  "email": "kishan@example.com",
+  "password": "kishan123"
 }
 ```
 
@@ -106,8 +106,8 @@ Server will start at:
 
 ```json
 {
-  "email": "alice@example.com",
-  "password": "password123"
+  "email": "kishan@example.com",
+  "password": "kishan123"
 }
 ```
 
@@ -134,7 +134,7 @@ Server will start at:
 {
   "name": "Morning Yoga",
   "dateTime": "2025-11-06T07:00:00Z",
-  "instructor": "John Doe",
+  "instructor": "Kishan Mishra",
   "availableSlots": 15
 }
 ```
@@ -161,7 +161,7 @@ Server will start at:
     "id": 1,
     "name": "Morning Yoga",
     "dateTime": "2025-11-06T07:00:00",
-    "instructor": "John Doe",
+    "instructor": "kishan mishra",
     "availableSlots": 15
   }
 ]
@@ -178,8 +178,8 @@ Server will start at:
 ```json
 {
   "class_id": 1,
-  "client_name": "Alice",
-  "client_email": "alice@example.com"
+  "client_name": "kishan",
+  "client_email": "kishan@example.com"
 }
 ```
 
@@ -205,8 +205,8 @@ Server will start at:
     "id": 1,
     "user_id": 1,
     "class_id": 1,
-    "client_name": "Alice",
-    "client_email": "alice@example.com",
+    "client_name": "kishan",
+    "client_email": "kishan@example.com",
     "booked_at": "2025-11-04T12:30:00"
   }
 ]
@@ -222,14 +222,7 @@ Server will start at:
 
 ---
 
-## 🏁 Next Steps
 
-* Add role-based access (trainer vs user)
-* Add email notifications after booking
-* Deploy to Render / Railway / Vercel
-
----
-
-**Author:** Your Name
+**Author:** Kishan Mishra
 **License:** MIT
 **Version:** 1.0.0
